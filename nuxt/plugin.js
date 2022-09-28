@@ -1,4 +1,8 @@
-import Vue from 'vue'
+import { createApp } from "vue";
 import VueWebCam from "vue-web-cam";
 
-Vue.use(VueWebCam)
+const app = createApp({
+  /* root component options */
+});
+
+app.use(VueWebCam);

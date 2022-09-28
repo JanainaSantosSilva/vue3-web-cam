@@ -1,12 +1,12 @@
 import WebCam from "./webcam";
 
-function plugin(Vue) {
-  Vue.component("vue-web-cam", WebCam);
+function plugin(app) {
+  app.component("vue-web-cam", WebCam);
 }
 
 // Install by default if using the script tag
-if (typeof window !== "undefined" && window.Vue) {
-  window.Vue.use(plugin);
+if (typeof window !== "undefined" && window.app) {
+  window.app.use(plugin);
 }
 
 export default plugin;

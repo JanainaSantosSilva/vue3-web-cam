@@ -12,7 +12,7 @@
 <script>
 export default {
   name: "VueWebCam",
-
+  emits: ['cameras', 'camera-change', 'stopped', 'started', 'video-live', 'error', 'notsupported'],
   props: {
     width: {
       type: [Number, String],
