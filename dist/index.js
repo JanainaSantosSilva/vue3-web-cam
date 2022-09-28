@@ -316,7 +316,7 @@
         i.d(t, "WebCam", function() {
           return n;
         }),
-        "undefined" != typeof window && window.app && window.Vue.use(r);
+        "undefined" != typeof window && window.app && window.app.use(r);
       t.default = r;
       var o = "__VERSION__";
     }
