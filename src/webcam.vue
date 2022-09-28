@@ -10,9 +10,21 @@
 </template>
 
 <script>
+import emitter from "tiny-emitter/instance";
+
+const $emit = (...args) => emitter.emit(...args);
+
 export default {
   name: "VueWebCam",
-  emits: ['cameras', 'camera-change', 'stopped', 'started', 'video-live', 'error', 'notsupported'],
+  emits: [
+    "cameras",
+    "camera-change",
+    "stopped",
+    "started",
+    "video-live",
+    "error",
+    "notsupported"
+  ],
   props: {
     width: {
       type: [Number, String],

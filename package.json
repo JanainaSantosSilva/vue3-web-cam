@@ -23,6 +23,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --config demo/webpack.config.js"
   },
   "dependencies": {
+    "tiny-emitter": "^2.1.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
