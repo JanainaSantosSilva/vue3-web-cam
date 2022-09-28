@@ -25,7 +25,7 @@
   "dependencies": {
     "chart.js": "^3.9.1",
     "tiny-emitter": "^2.1.0",
-    "vue": "^3.0.0",
+    "vue": "3",
     "vue-chartjs": "^4.1.2"
   },
   "devDependencies": {
@@ -63,7 +63,7 @@
     "set-value": "^2.0.1",
     "vue-loader": "^15.0.0",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.5.7",
+    "vue-template-compiler": "2.5.16",
     "webpack": "4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": ">=3.1.11",
