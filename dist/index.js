@@ -290,7 +290,6 @@
         },
         function() {
           var e = this.$createElement;
-          console.log(this._self);
           return (this._self._c || e)("video", {
             ref: "video",
             attrs: {
@@ -309,9 +308,7 @@
         null
       ).exports;
       function r(e) {
-        e.component = () => {
-          "vue-web-cam", n;
-        };
+        e.component("vue-web-cam", n);
       }
       i.d(t, "version", function() {
         return o;
@@ -319,7 +316,7 @@
         i.d(t, "WebCam", function() {
           return n;
         }),
-        "undefined" != typeof window && window.app && window.app.use(r);
+        "undefined" != typeof window && window.app && window.Vue.use(r);
       t.default = r;
       var o = "__VERSION__";
     }
