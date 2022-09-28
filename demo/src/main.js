@@ -4,4 +4,4 @@ import App from "./main.vue";
 // import WebCam from "../../src";
 // Vue.use(WebCam);
 
-createApp({}).mount("#app");
+createApp({}).mount(App);
