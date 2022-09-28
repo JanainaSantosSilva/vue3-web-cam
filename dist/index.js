@@ -290,6 +290,7 @@
         },
         function() {
           var e = this.$createElement;
+          console.log(this._self);
           return (this._self._c || e)("video", {
             ref: "video",
             attrs: {
