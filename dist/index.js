@@ -1,5 +1,3 @@
-import { h } from "vue";
-
 !(function(e, t) {
   "object" == typeof exports && "object" == typeof module
     ? (module.exports = t())
@@ -291,7 +289,8 @@ import { h } from "vue";
           }
         },
         function() {
-          return h("video", {
+          var e = this.$createElement;
+          return (this._self._c || e)("video", {
             ref: "video",
             attrs: {
               width: this.width,
