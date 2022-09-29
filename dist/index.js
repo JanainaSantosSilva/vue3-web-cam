@@ -290,16 +290,18 @@
         },
         function() {
           var e = document.createElement;
-          return e("video", {
-            ref: "video",
-            attrs: {
-              width: this.width,
-              height: this.height,
-              src: this.source,
-              autoplay: this.autoplay,
-              playsinline: this.playsinline
-            }
-          });
+          function render() {
+            return e("video", {
+              ref: "video",
+              attrs: {
+                width: this.width,
+                height: this.height,
+                src: this.source,
+                autoplay: this.autoplay,
+                playsinline: this.playsinline
+              }
+            });
+          }
         },
         [],
         !1,
