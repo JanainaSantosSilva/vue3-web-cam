@@ -289,7 +289,7 @@
           }
         },
         function() {
-          var e = this.$createElement;
+          var e = document.createElement;
           return (this._self._c || e)("video", {
             ref: "video",
             attrs: {
