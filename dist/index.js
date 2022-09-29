@@ -290,7 +290,7 @@
         },
         function() {
           var e = document.createElement;
-          return (this._self._c || e)("video", {
+          return e("video", {
             ref: "video",
             attrs: {
               width: this.width,
